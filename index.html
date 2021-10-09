@@ -12,12 +12,12 @@
     <div class="app">
         <div class="header">
             <ul class="nav">
-                <li><a href="">HOME</a></li>
-                <li><a href="">BAND</a></li>
-                <li><a href="">TOUR</a></li>
-                <li><a href="">CONTACT</a></li>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#band">BAND</a></li>
+                <li><a href="#tour">TOUR</a></li>
+                <li><a href="#contact">CONTACT</a></li>
                 <li>
-                    <a href="">MORE
+                    <a href="#footer">MORE
                         <i class="fas fa-caret-down"></i>
                     </a>
                 <ul class="subnav">
@@ -40,7 +40,7 @@
              </div>
         </div>
         <div class="content">
-             <div class="text-content">
+             <div class="text-content" id="band">
                  <h2 class="span2 h2">the band</h2>
                  <p class="span3">We love music</p>
                  <p class="text-span">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
@@ -59,7 +59,7 @@
                   <img src="https://www.w3schools.com/w3images/bandmember.jpg" alt="Name" class="img-list" id="img1">
                 </div>
             </div>
-        <div class="tour-places">
+        <div class="tour-places" id="tour">
             <h2 class="hading1 h2" >TOUR DATES</h2>
             <p class="heading5">Remember to book your tickets!</p>
             <ul class="tour-time">
@@ -67,13 +67,94 @@
                 <li>Octorber<span class="sold-out">Sold out</span></li>
                 <li>November<span class="quanlity">3</span></li>
             </ul>
-        </div>
-        
-
-        </div>
-        <div class="footer">
+        <div class="des-places">
+           <div class="son-des">
+            <img src="https://www.w3schools.com/w3images/newyork.jpg" alt="New york" class="img-item">
+            <div class="desc-places">
+                <h3 class="name9">New York</h3>
+                <p class="places-times">Fri 27 Nov 2016</p>
+                <p class="p-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                <a href="#" class="button-ticket">Buy Tickets</a>
+            </div>
+           </div> 
+           <div class="son-des">
+            <img src="https://www.w3schools.com/w3images/paris.jpg" alt="Paris" class="img-item">
+            <div class="desc-places">
+                <h3 class="name9">Paris</h3>
+                <p class="places-times">Sat 28 Nov 2016</p>
+                <p class="p-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                <a href="#" class="button-ticket">Buy Tickets</a>
+            </div>
+           </div> 
+           <div class="son-des">
+            <img src="https://www.w3schools.com/w3images/sanfran.jpg" alt="San fran" class="img-item">
+            <div class="desc-places">
+                <h3 class="name9">San Francisco</h3>
+                <p class="places-times">Sun 29 Nov 2016</p>
+                <p class="p-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                <a href="#" class="button-ticket">Buy Tickets</a>
+            </div>
+           </div> 
             
         </div>
+
+        </div>
+      <div class="contact" id="contact">
+          <h2 class="contact">CONTACT</h2>
+          <p class="contact1">Fan? Drop a note!</p>
+      </div>
+      <div class="row contact-content">
+        <div class="col col-half">
+            <b><br><i class="fas fa-map-marker-alt">
+                Chicago, US
+            </i></br></b>
+            <b><br><i class="fas fa-phone-alt">
+                Phone: +00 151515
+            </i></br></b>
+            <b><br><i class="fas fa-envelope">
+                Email: mail@mail.com
+            </i></br></b>
+          </div>
+             <div class="col col-half">
+                 <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSf284gXOx5Riy71svnZ2hS7c3ohvRhChQSf_T4_0hn6jIQ1XA/formResponse" class="form">
+                     <div class="row" id="row1">
+                         <div class="col col-half">
+                       <input type="text" class="form-controls" placeholder="Name">
+                         </div>
+                         <div class="col col-half">
+                        <input type="text" class="form-controls" placeholder="Email">
+                         </div>
+                     </div>
+                     <div class="row" id="row1">
+                         <div class="col col-full">
+                        <input type="text" class="form-control" placeholder="Message">
+                         </div>
+                         <button class="send">Send</button>
+                     </div>
+                
+                </form>
+            
+             </div>
+      </div>
+      
+        </div>
+      <div class="map">
+      </div>
+        
+      <div class="footer" id="footer">
+            <div class="icon-visited">
+                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-snapchat"></i>
+                <i class="fab fa-pinterest-p"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-linkedin-in"></i>
+        </div>
+        <p class="text-footer">Powered by <a href="https://www.w3schools.com/w3css/default.asp">w3.css</a></p>
     </div>
+
+    
+
+
 </body>
 </html>
